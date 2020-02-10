@@ -85,6 +85,7 @@ int main(){
             }
         }
     }
+    std::cout << "No. of solutions: " << solution_count << std::endl;
 
     auto end = std::chrono::steady_clock::now(); 
     std::cout << "Total time taken : " 
