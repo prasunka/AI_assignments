@@ -39,10 +39,10 @@ int isExpandable(cityNode node, int i){
 int main(){
     int N = 4;
     int graph[N][N] = {
-        0,2,3,5,
-        2,0,3,2,
-        3,3,0,1,
-        5,2,1,0
+        {0,2,3,5,},
+        {2,0,3,2,},
+        {3,3,0,1,},
+        {5,2,1,0 }
     };
     
     cityNode initial;
@@ -58,7 +58,7 @@ int main(){
     while(!open.empty()){
         cityNode tmp = open.top();
         open.pop();
-        std::cout << "Popped : " << tmp.city <<"\nChildren: \n"; 
+        //std::cout << "Popped : " << tmp.city << "Obj_fn: " << tmp.obj_fn<<"\nChildren: \n"; 
         if(isGoal(tmp,N)){
             for(int i:tmp.parentPath){
                 if(i!=-1)std::cout << i <<"->";
@@ -77,7 +77,7 @@ int main(){
                 nextcity.parentPath.push_back(tmp.city);
                 nextcity.obj_fn = nextcity.dist_from_initial + graph[i][initial.city];
 
-                std::cout << i << "\n";
+                //std::cout << i << "\n";
 
                 open.push(nextcity);
             }
