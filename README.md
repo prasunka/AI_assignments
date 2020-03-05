@@ -10,7 +10,7 @@
     
 
     
-**2. Travelling Salesman Problem using A* algorithm:**
+**2. Travelling Salesman Problem using A\* algorithm:**
      
     Given n cities and the distance between them, this program finds the path with least distance which
     passes through each city once. A sample dataset of 4 cities has been coded in the program and an 
