@@ -20,7 +20,7 @@ This implementation of Genetic algorithm has the following flow:
 6. Mutate a small percentage of population (Default probability: 0.001, configured by variable **mut_prob**)
 7. Go to step 2 till No. of iterations < TOTAL_ITERATIONS (default : 1000)
 
-The fitness function uses the n-dimensional euclidean distance.
+The fitness function uses the n-dimensional euclidean distance formula to calculate distance between groups.
 ## Build and Run
 
 
@@ -58,7 +58,10 @@ Marks:
 **Optimal solution:**
 Fitness value: 50.9117
 
-Group 1 : 1 2 3
-Group 2 : 4 5 6
-Group 3 : 7 8 9
+Student Classification:
 
+Group 1: 4 5 6
+Group 2: 7 8 9
+Group 3: 1 2 3
+
+**Note:** See **test-output** file for complete output (big file! go to end for final result).
