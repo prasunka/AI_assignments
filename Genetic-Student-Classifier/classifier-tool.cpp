@@ -12,7 +12,7 @@ int main(int argc, char ** argv){
 
     int TOTAL_ITERATIONS = 1000;
     int MAX_POPULATION = 100;
-    double mut_prob = 0.01;
+    double mut_prob = 0.001;
 
     if(argc>1 && argv[1]!=">"){
         std::cout << "Parsing arguements\n";
