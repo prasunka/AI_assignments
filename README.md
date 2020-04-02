@@ -24,3 +24,13 @@
     Given N students's marks in M subjects, this classifier groups them into K groups using Genetic
     Algorithm. For implementation details and build instructions, see the README inside the
     Genetic-Student-Classifier directory.
+
+**4. Game of Sticks:**
+
+    A game of sticks using Min/Max game tree and Alpha-Beta pruning.
+
+    Compile:
+    g++ game-of-sticks.cpp -o gos -Wall
+
+    Run:
+    ./gos
