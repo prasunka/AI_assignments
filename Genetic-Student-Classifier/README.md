@@ -25,7 +25,9 @@ The fitness function uses the n-dimensional euclidean distance formula to calcul
 
 
 > git clone https://github.com/prasunka/AI_assignments
+>
 > cd Genetic-Student-Classifier
+>
 > make
 
 To run:
