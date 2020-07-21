@@ -65,3 +65,11 @@ Group 2: 7 8 9
 Group 3: 1 2 3
 
 **Note:** See **test-output** file for complete output (big file! go to end for final result).
+
+## References
+
+1. Artificial Intelligence: A Modern Approach (Stuart J. Russell, Stuart Jonathan Russell, Peter Norvig, Ernest Davis)
+
+2. CROSSOVER OPERATORS IN GENETIC ALGORITHMS: A REVIEW (A.J. Umbarkar and P.D. Sheth)
+
+3. Clustering by a genetic algorithm with biased mutation operator (Benjamin Auffarth)
