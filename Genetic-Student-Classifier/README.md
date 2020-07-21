@@ -41,28 +41,29 @@ Or run with default configuration:
 **Note**: To run the built-in test case given below, go to **classifier-tool.cpp** and on line **5**, remove the comment.
 
 ### Inbuilt test case:
-No. of student: 9
-No. of groups: 3
-No. of subjects: 2
-Marks:
-1 1
-2 2
-3 3
-4 4
-5 5
-6 6
-7 7
-8 8
-9 9
+No. of student: 9 <br/>
+No. of groups: 3 <br/>
+No. of subjects: 2 <br/>
+Marks: <br/>
+1 1 <br/>
+2 2 <br/>
+3 3 <br/>
+4 4 <br/>
+5 5 <br/>
+6 6 <br/>
+7 7 <br/>
+8 8 <br/>
+9 9 <br/>
 
 **Optimal solution:**
+
 Fitness value: 50.9117
 
 Student Classification:
 
-Group 1: 4 5 6
-Group 2: 7 8 9
-Group 3: 1 2 3
+Group 1: 4 5 6 <br/>
+Group 2: 7 8 9 <br/>
+Group 3: 1 2 3 <br/>
 
 **Note:** See **test-output** file for complete output (big file! go to end for final result).
 
